@@ -1,0 +1,99 @@
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #fef2e6;
+}
+
+header {
+    background-color: #f5b76b;
+    padding: 1rem;
+    text-align: center;
+}
+
+#header {
+    color: #8c3900;
+    border-bottom: none;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #333;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    padding-left: 10px;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    margin-top: 1.25em;
+    margin-bottom: 0.5em;
+    padding-left: 10px;
+    border-left: 4px solid #8c3900; /* 左側にアクセントカラーのボーダー */
+}
+  
+h4 {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #8c3900; /* アクセントカラー */
+    margin-top: 1.25em;
+    margin-bottom: 0.4em;
+    padding-bottom: 5px;
+    border-bottom: 4px solid #8c3900; /* 下側にアクセントカラーの太線 */
+    display: inline-block; /* 文字の長さに合わせる */
+}
+  
+main {
+    display: flex;
+    padding: 1rem;
+}
+
+.content {
+    flex: 2;
+}
+
+.sidebar {
+    flex: 1;
+    margin-left: 1rem;
+}
+
+.sidebar_h2 {
+    margin-bottom: 0.5em;
+    border-left: 4px solid #8c3900;
+}
+
+article {
+    background-color: #fde5c5;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+footer {
+    background-color: #8c3900;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: #b3652a;
+}
