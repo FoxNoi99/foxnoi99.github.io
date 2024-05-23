@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+#board-container {
+    width: 80%;
+    max-width: 600px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+#board-log {
+    padding: 20px;
+    height: 400px;
+    overflow-y: scroll;
+    border-bottom: 1px solid #ccc;
+}
+
+#board-log .message {
+    margin-bottom: 10px;
+}
+
+#board-log .timestamp {
+    font-size: 0.8em;
+    color: gray;
+}
+
+#board-form {
+    display: flex;
+    border-top: 1px solid #ccc;
+}
+
+#board-form input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+#board-form button {
+    padding: 10px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#board-form button:hover {
+    background: #45a049;
+}
